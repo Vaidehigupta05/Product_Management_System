@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+    background-color: #1f2937;
+    color: white;
+}
+
+h2 {
+    margin-top: 25px;
+    color: #1f2937;
+}
+
+body > form,
+#productForm,
+#editSection,
+body > div,
+table,
+h2,
+#message {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#productForm {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+#message {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#editSection {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#lowStockAlert {
+    margin: 10px 5%;
+    padding: 15px;
+    background-color: #fff3cd;
+    border: 1px solid #ffe69c;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#searchInput {
+    width: 60%;
+}
+
+table {
+    width: 90%;
+    margin-top: 15px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #1f2937;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+tr:hover {
+    background-color: #eef2ff;
+}
+
+td button {
+    margin: 2px;
+}
+
+@media (max-width: 768px) {
+
+    input {
+        width: 90%;
+        margin: 5px 0;
+    }
+
+    #searchInput {
+        width: 90%;
+    }
+
+    table {
+        font-size: 12px;
+        overflow-x: auto;
+        display: block;
+    }
+}
